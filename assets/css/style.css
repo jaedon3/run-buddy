@@ -7,7 +7,7 @@
 body {
     /* more on this crazy value in a minute */
     color: #39a6b2;
-    font font-family: Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 /* apply styles to <header> */
@@ -141,9 +141,6 @@ section {
     text-align: center;
 }
 
-.intro h2 {
-}
-
 .intro p{
     line-height: 1.7;
     color: #39a6b2;
@@ -155,9 +152,6 @@ section {
 .steps {
     text-align: center;
     background: #fce138;
-}
-
-.steps h2 {
 }
 
 .section-title {
@@ -201,22 +195,27 @@ section {
     font-size: 38px;
 }
 
-.trainer {
+.trainers {
     text-align: center;
+  }
+
+  .trainer {
     width: 900px;
     margin: 0 auto 30px auto;
     background: #024e76;
     color: #fce138;
     overflow: auto;
-}
+  }
 
-.trainer img{
+  .trainer img {
     width: 35%;
     float: left;
-}
-
-.trainer-bio {
+  }
+  
+  .trainer-bio {
     padding: 35px;
-    float: left;
     width: 65%;
-}
+    float: left;
+    overflow: auto;
+  }
+
